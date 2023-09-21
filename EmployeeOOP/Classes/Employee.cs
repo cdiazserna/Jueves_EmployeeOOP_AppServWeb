@@ -24,13 +24,13 @@ namespace EmployeeOOP.Classes
 
         public override string ToString()
         {
-            return $"INFORMACIÓN EMPLEADO \n\t " +
-                $"ID: {Id}\n\t" +
-                $"Nombres: {FirstName}\n\t" +
-                $"Apellidos: {LastName}\n\t" +
-                $"Fecha de Cumpleaños: {BirthDate}\n\t" +
-                $"Fecha de Contratación: {HiringDate}\n\t" +
-                $"¿Empleado activo?: {IsActive}\n\t";
+            return $"----EMPLOYEE----\n\t" +
+                $"ID.............{Id}\n\t" +
+                $"First Name.....{FirstName}\n\t" +
+                $"Last Name......{LastName}\n\t" +
+                $"Birth Date.....{BirthDate}\n\t" +
+                $"HiringDate.....{HiringDate}\n\t" +
+                $"Is Active?.....{IsActive}";
         }
 
         #endregion
